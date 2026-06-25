@@ -9,7 +9,7 @@ body{
 .main2{
     height: 100px;
     position: relative;
-    top: 450px;
+    top: 430px;
 }
 .img1{
    
@@ -48,10 +48,10 @@ body{
      margin-left: 10px;
 }
 .img1,.img2, .img3, .img4 ,.img5 ,.img6 ,.img7{
-    border: 2px solid black;
+    
      position: absolute;
     width: 200px;
-    height: 20px;
+    height: 30px;
     background-color: rgb(181, 184, 187);
     margin-left: 50px;
   margin-right: 50px;
@@ -62,12 +62,15 @@ body{
     height: 100%;
     width: 100%;
     filter: opacity(0%);
+    transition: 2s;
+    filter: blur(100px);
 }
 .glass2{
     position: absolute;
     height: 100%;
     width: 200px;
     left: 53px;
+    transition: 3s;
    
   
 
@@ -77,6 +80,7 @@ body{
     height: 100%;
     width: 200px;
     left: 257px;
+    transition: 3s;
     
 
 }
@@ -85,6 +89,7 @@ body{
     height: 100%;
     width: 200px;
     left: 462px;
+    transition: 3s;
 
 }
 .glass5{
@@ -92,6 +97,7 @@ body{
     height: 100%;
     width: 200px;
     left: 666px;
+    transition: 3s;
 
 }
 .glass6{
@@ -99,6 +105,7 @@ body{
     height: 100%;
     width: 200px;
     left: 872px;
+    transition: 3s;
 
 }
 .glass7{
@@ -106,6 +113,7 @@ body{
     height: 100%;
     width: 200px;
     left: 1077px;
+    transition: 3s;
 
 }
 .glass8{
@@ -113,10 +121,21 @@ body{
     height: 100%;
     width: 200px;
     left: 1282px;
+    transition: 3s;
 
 }
 .image{
     height: 100%;
     width: 100%;
+    filter: opacity(0%);
+    transition: 2s;
+    
 
+}
+
+.glass:hover{
+     filter: opacity(100%);
+     filter: blur(1px);
+     
+   
 }
