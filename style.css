@@ -69,7 +69,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 53px;
+    left: 50px;
     transition: 3s;
    
   
@@ -79,7 +79,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 257px;
+    left: 255px;
     transition: 3s;
     
 
@@ -88,7 +88,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 462px;
+    left: 460px;
     transition: 3s;
 
 }
@@ -96,7 +96,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 666px;
+    left: 665px;
     transition: 3s;
 
 }
@@ -104,7 +104,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 872px;
+    left: 870px;
     transition: 3s;
 
 }
@@ -112,7 +112,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 1077px;
+    left: 1075px;
     transition: 3s;
 
 }
@@ -120,7 +120,7 @@ body{
     position: absolute;
     height: 100%;
     width: 200px;
-    left: 1282px;
+    left: 1280px;
     transition: 3s;
 
 }
@@ -135,7 +135,35 @@ body{
 
 .glass:hover{
      filter: opacity(100%);
-     filter: blur(1px);
+     filter: blur(3px);
      
    
+}
+.main:has(.img2:hover) ~ .main2 .glass3 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img1:hover) ~ .main2 .glass2 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img3:hover) ~ .main2 .glass4 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img4:hover) ~ .main2 .glass5 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img5:hover) ~ .main2 .glass6 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img6:hover) ~ .main2 .glass7 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
+}
+.main:has(.img7:hover) ~ .main2 .glass8 .image {
+   filter: opacity(100%);
+   transform: translateY(29px);
 }
