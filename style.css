@@ -6,6 +6,11 @@ body{
     position: relative;
     top: 600px;
 }
+.main2{
+    height: 100px;
+    position: relative;
+    top: 450px;
+}
 .img1{
    
   margin-left: 20px;
@@ -48,7 +53,70 @@ body{
     width: 200px;
     height: 20px;
     background-color: rgb(181, 184, 187);
-    margin-left: 20px;
-  margin-right: 20px;
+    margin-left: 50px;
+  margin-right: 50px;
+
+}
+.glass{
+    transform: rotate(180deg);
+    height: 100%;
+    width: 100%;
+    filter: opacity(0%);
+}
+.glass2{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 53px;
+   
+  
+
+    }
+.glass3{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 257px;
+    
+
+}
+.glass4{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 462px;
+
+}
+.glass5{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 666px;
+
+}
+.glass6{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 872px;
+
+}
+.glass7{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 1077px;
+
+}
+.glass8{
+    position: absolute;
+    height: 100%;
+    width: 200px;
+    left: 1282px;
+
+}
+.image{
+    height: 100%;
+    width: 100%;
 
 }
